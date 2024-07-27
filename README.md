@@ -1,4 +1,4 @@
-# Reddit Sentiment Analysis Tool (FOR PERSONAL USAGE AND REFERENCE FOR FUTURE PROJECTS)
+# Reddit Sentiment Analysis Tool (FOR PERSONAL USAGE)
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@
 
 ## Overview
 
-The Reddit Sentiment Analysis tool aims to build a backend web application that fetches data from Reddit, analyzes the sentiment of the posts and comments using machine learning tools, and visualizes the results using charts and graphs
+The Reddit Sentiment Analysis tool aims to build a backend web application that fetches data from Reddit, analyzes the sentiment of the posts and comments using machine learning tools, and visualizes the results using charts and graphs. This documentation will provide rough guidelines for future projects developed by Hoang Ngo
 
 ## Technologies
 
