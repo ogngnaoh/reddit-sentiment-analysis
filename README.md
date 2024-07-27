@@ -1,4 +1,4 @@
-# Reddit Sentiment Analysis Tool (FOR PERSONAL USAGE)
+# Reddit Sentiment Analysis Tool (FOR PERSONAL PURPOSES PURELY)
 
 ## Table of Contents
 
