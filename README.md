@@ -72,7 +72,7 @@ The Reddit Sentiment Analysis tool aims to build a backend web application that 
 1. **Run the Application**: Start the Flask server locally and ensure everything is set up correctly.
 2. **Check the Output**: Open your web browser and go to `http://127.0.0.1:5000/` to see the application running.
 
-## Summary
+## Summary of Terms for General Explanation during Interviews
 
 - **Virtual Environment**: Manage project dependencies in an isolated environment.
 - **Flask Installation**: Set up Flask, SQLAlchemy, and other required libraries.
