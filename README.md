@@ -1,6 +1,4 @@
-# Reddit Sentiment Analysis Dashboard
-
-Welcome to the Reddit Sentiment Analysis Dashboard project! This project involves creating a backend service that analyzes the sentiment of posts and comments on specific subreddits and displays the results on a dashboard.
+# Reddit Sentiment Analysis Tool (FOR PERSONAL USAGE AND REFERENCE FOR FUTURE PROJECTS)
 
 ## Table of Contents
 
@@ -20,7 +18,7 @@ Welcome to the Reddit Sentiment Analysis Dashboard project! This project involve
 
 ## Overview
 
-The Reddit Sentiment Analysis Dashboard project aims to build a web application that fetches data from Reddit, analyzes the sentiment of the posts and comments, and visualizes the results using various charts and graphs.
+The Reddit Sentiment Analysis tool aims to build a backend web application that fetches data from Reddit, analyzes the sentiment of the posts and comments using machine learning tools, and visualizes the results using charts and graphs
 
 ## Technologies
 
@@ -34,9 +32,7 @@ The Reddit Sentiment Analysis Dashboard project aims to build a web application 
 
 ## Project Setup
 
-### Step-by-Step Guide
-
-### Step 1: Set Up Flask Project
+### Step 1: Set Up Flask Framework
 
 1. **Install Flask and Dependencies**: Set up a virtual environment and install Flask along with other necessary libraries such as SQLAlchemy for database management, Flask-Migrate for handling database migrations, and Flask-JWT-Extended for user authentication.
 2. **Create Project Structure**: Organize your project files and directories for better maintainability. This includes setting up directories for your app, configuration, and running scripts.
@@ -69,7 +65,7 @@ The Reddit Sentiment Analysis Dashboard project aims to build a web application 
 ### Step 7: Deployment
 
 1. **Prepare for Deployment**: Create a `Procfile` for Heroku, install Gunicorn, and ensure all necessary configurations are set for deployment.
-2. **Deploy to Heroku**: Initialize a git repository, commit your code, create a Heroku app, push your code to Heroku, and run database migrations.
+2. **Deploy to Heroku**: Initialize a git repository, commit code, create a Heroku app, push code to Heroku, and run database migrations.
 
 ## Testing the Setup
 
@@ -88,5 +84,3 @@ The Reddit Sentiment Analysis Dashboard project aims to build a web application 
 - **Visualization**: Display sentiment analysis results using Plotly.
 - **User Authentication**: Implement user authentication with JWT.
 - **Deployment**: Deploy the application on Heroku.
-
-This README provides an overview of the setup and development process for the Reddit Sentiment Analysis Dashboard project. If you have any questions or need further clarifications, feel free to ask!
