@@ -11,8 +11,7 @@
     - [Step 3: Perform Sentiment Analysis](#step-3-perform-sentiment-analysis)
     - [Step 4: Create API Endpoints](#step-4-create-api-endpoints)
     - [Step 5: Visualization](#step-5-visualization)
-    - [Step 6: User Authentication](#step-6-user-authentication)
-    - [Step 7: Deployment](#step-7-deployment)
+    - [Step 6: Deployment](#step-7-deployment)
 5. [Testing the Setup](#testing-the-setup)
 6. [Summary](#summary)
 
@@ -28,7 +27,6 @@ The Reddit Sentiment Analysis tool aims to build a backend web application that 
 - **Reddit API (PRAW)**: Python Reddit API Wrapper
 - **Natural Language Toolkit (NLTK)**: Sentiment analysis
 - **Plotly**: Visualization library
-- **Flask-JWT-Extended**: User authentication
 
 ## Project Setup
 
@@ -51,18 +49,14 @@ The Reddit Sentiment Analysis tool aims to build a backend web application that 
 ### Step 4: Create API Endpoints
 
 1. **Define Models**: Use SQLAlchemy to create database models for storing user information and analyzed posts.
-2. **Implement Endpoints**: Create API endpoints for user registration, login, and fetching sentiment analysis results. Implement necessary routes to handle these actions.
+2. **Implement Endpoints**: Create API endpoints for fetching sentiment analysis results, clearing database, creating visualizations. Implement necessary routes to handle these actions.
 
 ### Step 5: Visualization
 
 1. **Install Plotly**: Install Plotly for creating visualizations.
 2. **Create Visualizations**: Generate visual representations of the sentiment analysis results using Plotly and integrate them into the web dashboard.
 
-### Step 6: User Authentication
-
-1. **Set Up JWT Authentication**: Implement user authentication using Flask-JWT-Extended. This involves setting up routes for user registration and login and protecting endpoints with JWT.
-
-### Step 7: Deployment
+### Step 6: Deployment
 
 1. **Prepare for Deployment**: Create a `Procfile` for Heroku, install Gunicorn, and ensure all necessary configurations are set for deployment.
 2. **Deploy to Heroku**: Initialize a git repository, commit code, create a Heroku app, push code to Heroku, and run database migrations.
@@ -80,7 +74,7 @@ The Reddit Sentiment Analysis tool aims to build a backend web application that 
 - **Flask Initialization**: Set up the Flask application with necessary configurations and extensions.
 - **Reddit API Integration**: Fetch data from Reddit using PRAW.
 - **Sentiment Analysis**: Analyze sentiment of Reddit posts using NLTK.
-- **API Endpoints**: Create endpoints for user registration, login, and data analysis.
+- **API Endpoints**: Create endpoints for data analysis, clearing database, fetching posts.
 - **Visualization**: Display sentiment analysis results using Plotly.
 - **User Authentication**: Implement user authentication with JWT.
 - **Deployment**: Deploy the application on Heroku.
