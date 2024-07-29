@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reddit Sentiment Analysis</title>
+</head>
+<body>
+    <h1>Reddit Sentiment Analysis</h1>
+    <form action="/fetch_posts" method="GET">
+        <label for="subreddit">Enter Subreddit: </label>
+        <input type="text" id="subreddit" name="subreddit" required>
+        <button type="submit">Analyze</button>
+    </form>
+    <div id="results">
+        {{ plot_html|safe }}
+    </div>
+</body>
+</html>
