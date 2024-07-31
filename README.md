@@ -1,6 +1,4 @@
-# Reddit Sentiment Analysis Tool (FOR PERSONAL PURPOSES PURELY)
-
-## Table of Contents
+# Reddit Sentiment Analysis Tool 
 
 1. [Overview](#overview)
 2. [Technologies](#technologies)
@@ -11,13 +9,13 @@
     - [Step 3: Perform Sentiment Analysis](#step-3-perform-sentiment-analysis)
     - [Step 4: Create API Endpoints](#step-4-create-api-endpoints)
     - [Step 5: Visualization](#step-5-visualization)
-    - [Step 6: Deployment](#step-7-deployment)
+    - [Step 6: Deployment](#step-6-deployment)
 5. [Testing the Setup](#testing-the-setup)
 6. [Summary](#summary)
 
 ## Overview
 
-The Reddit Sentiment Analysis tool aims to build a backend web application that fetches data from Reddit, analyzes the sentiment of the posts and comments using machine learning tools, and visualizes the results using charts and graphs. This documentation will provide rough guidelines for future projects developed by Hoang Ngo
+The Reddit Sentiment Analysis tool aims to build a backend web application that fetches data from Reddit, analyzes the sentiment of the posts and comments using an NLP tool, and visualizes the results using a pie chart and table
 
 ## Technologies
 
@@ -32,9 +30,9 @@ The Reddit Sentiment Analysis tool aims to build a backend web application that 
 
 ### Step 1: Set Up Flask Framework
 
-1. **Install Flask and Dependencies**: Set up a virtual environment and install Flask along with other necessary libraries such as SQLAlchemy for database management, Flask-Migrate for handling database migrations, and Flask-JWT-Extended for user authentication.
+1. **Install Flask and Dependencies**: Set up a virtual environment and install Flask along with other necessary libraries such as SQLAlchemy for database management and Flask-Migrate for handling database migrations.
 2. **Create Project Structure**: Organize your project files and directories for better maintainability. This includes setting up directories for your app, configuration, and running scripts.
-3. **Initialize Flask App**: Create the Flask application and initialize the extensions (SQLAlchemy, Migrate, JWT) within the application.
+3. **Initialize Flask App**: Create the Flask application and initialize the extensions (SQLAlchemy and Migrate) within the application.
 
 ### Step 2: Integrate Reddit API
 
@@ -54,7 +52,7 @@ The Reddit Sentiment Analysis tool aims to build a backend web application that 
 ### Step 5: Visualization
 
 1. **Install Plotly**: Install Plotly for creating visualizations.
-2. **Create Visualizations**: Generate visual representations of the sentiment analysis results using Plotly and integrate them into the web dashboard.
+2. **Create Visualizations**: Generate visual representations of the sentiment analysis results using Plotly
 
 ### Step 6: Deployment
 
@@ -65,16 +63,3 @@ The Reddit Sentiment Analysis tool aims to build a backend web application that 
 
 1. **Run the Application**: Start the Flask server locally and ensure everything is set up correctly.
 2. **Check the Output**: Open your web browser and go to `http://127.0.0.1:5000/` to see the application running.
-
-## Summary of Terms for General Explanation during Interviews
-
-- **Virtual Environment**: Manage project dependencies in an isolated environment.
-- **Flask Installation**: Set up Flask, SQLAlchemy, and other required libraries.
-- **Project Structure**: Organize project files and directories for maintainability.
-- **Flask Initialization**: Set up the Flask application with necessary configurations and extensions.
-- **Reddit API Integration**: Fetch data from Reddit using PRAW.
-- **Sentiment Analysis**: Analyze sentiment of Reddit posts using NLTK.
-- **API Endpoints**: Create endpoints for data analysis, clearing database, fetching posts.
-- **Visualization**: Display sentiment analysis results using Plotly.
-- **User Authentication**: Implement user authentication with JWT.
-- **Deployment**: Deploy the application on Heroku.
